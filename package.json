@@ -1,0 +1,13 @@
+{
+  "name": "my-slack-status-app",
+  "version": "1.0.0",
+  "description": "A Slack app that shows team status with dropdown updates",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.0.3"
+  }
+}
